@@ -1,0 +1,12 @@
+.About p {
+    font-family: tanha;
+    color: #8a2a57;
+    margin-right: 5px;
+    text-align: end;
+}
+
+.About img {
+    width: 10%;
+    height: 10%;
+    clip-path: circle(50%);    
+}

@@ -1,0 +1,12 @@
+.Contact {
+    font-family: tanha;
+    text-align: right;
+    margin-right: 10px;
+    color: #8a2a57;
+}
+
+.ModalMsg h3 {
+    text-align: center;
+    display: block;
+    margin: auto;
+}

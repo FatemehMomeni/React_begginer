@@ -1,0 +1,31 @@
+@font-face {
+    font-family: tanha;
+    src: url('../../../fonts/tanha-font-v0.9/Tanha.ttf');
+}
+
+.Navbar {
+    width: auto;
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2px 5px;
+    margin-left: -5px;
+    border: 1px solid #f7b4a5;
+    background-color: #f7b4a5;
+}
+
+.Navbar button:hover {
+    background-color: #f5a290;
+    border: none;    
+}
+
+.Navbar li button {
+    border: none;
+    border-radius: 5px;
+    color: #B53471;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: tanha;
+    background-color: #f7b4a5;
+}

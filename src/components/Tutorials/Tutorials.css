@@ -1,0 +1,34 @@
+.Toturials {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Tutorials li {
+    margin: 10px;    
+    width: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.Tutorials li h3 {
+    margin: 5px;
+    text-align: center;
+    font-family: tanha;
+  }
+  
+.Tutorials li img {
+    width: 100%;
+    height: 150px;
+  }
+  
+.TutorialSubjects li span {
+    padding: 10px;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    color: #B53471;
+}

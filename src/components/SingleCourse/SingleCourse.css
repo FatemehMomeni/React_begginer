@@ -1,0 +1,17 @@
+.SingleCourse {
+    width: 100%;
+    direction: rtl;
+    justify-items: center;
+    animation-name: appear;
+    animation-duration: 700ms;
+}
+
+.SingleCourse img{
+    width: 100%;
+}
+
+@keyframes appear {
+    0%  { opacity: 0%; }
+    50% { opacity: 50%; }
+  100%  { opacity: 100%; }
+}

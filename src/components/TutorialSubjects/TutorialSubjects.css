@@ -1,0 +1,34 @@
+.TutorialSubjects {
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.TutorialSubjects.visible {
+    opacity: 1;
+}
+
+.TutorialSubjects li {
+    margin: 10px;    
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.TutorialSubjects li h3 {
+    margin: 5px;
+    text-align: center;
+    font-family: tanha;
+}
+
+.TutorialSubjects li img {
+    width: 100%;
+    height: 150px;
+}
+    
+.TutorialSubjects li span {
+    padding: 10px;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    color: #B53471;
+}  

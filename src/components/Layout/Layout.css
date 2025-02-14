@@ -1,0 +1,10 @@
+@font-face {
+    font-family: tanha;
+    src: url('../../../fonts/tanha-font-v0.9/Tanha.ttf');
+}
+
+.Template {
+    display: flex;
+    flex-direction: column;
+    font-family: tanha;
+}
