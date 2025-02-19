@@ -1,10 +1,11 @@
 import React from "react";
 import "./About.css";
+import profileImg from "./profile.jpg";
 
 
 const About = () => (
     <div className="About">
-        <img src="https://eramblog.com/img/1713345753_2973555.jpg" alt="avatar" />
+        <img src={profileImg} alt="avatar" />
         <p>
             :توسعه‌دهنده<br/>
             فاطمه مؤمنی<br/>

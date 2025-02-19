@@ -9,6 +9,7 @@ import { MdOutlineRemoveShoppingCart } from "react-icons/md";
 import { Link } from "react-router";
 import PropTypes from "prop-types";
 import { convertToPersianNum } from "../../utils/validation";
+import { PROJECT_URL } from "../../configs/general";
 
 
 const TutorialSubjects = ({data}) => {
@@ -41,7 +42,7 @@ const TutorialSubjects = ({data}) => {
             <Link to={`/course/${data.id}`}>
                 <h3>{data.name}</h3>
             </Link>
-            <Image imgSrc={data.image} />
+            <Image imgSrc={`${PROJECT_URL}/assets/img/${data.image}`} />
             <span>قیمت: {convertToPersianNum(data.price)}</span><br/>
             <Button handleClick={handleAdd} 
                 style={{

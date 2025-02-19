@@ -1,0 +1,8 @@
+.Emoji {
+    font-family: tanha;
+}
+
+.Emoji :focus {
+    border-radius: 3px;
+    outline: #8a2a57;
+}

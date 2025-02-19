@@ -11,10 +11,11 @@ const Blog = () => {
 
   const loadPosts = async () => {
     setLoading(true);
-    const responsePosts = await fetch('http://www.mocky.io/v2/5e9278be3100005b00462cbd');
-    const posts = await responsePosts.json()
+    const responsePosts = await fetch('http://www.mocky.io/v3/3e3c59f9-2596-4d5e-941e-7fcd96ba4557');
+    const posts = await responsePosts.json();
     await setPosts(posts);
     setLoading(false);
+    console.log("posts: ", posts);    
   };
 
   useEffect(() => {

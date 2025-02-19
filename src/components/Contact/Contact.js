@@ -10,13 +10,14 @@ const Contact = () => {
     const [subject, setSubject] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-    const [errors,setErrors] = useState({});
+    const [errors, setErrors] = useState({});
     const [openModal, setOpenModal] = useState(false);
     const inputSubjectRef = useRef(null);
 
-    const handleSubject = (event) => {
+    const handleSubject = (event) => {        
         if (validateSubject(event.target.value)){
             setSubject(event.target.value);
+            console.log("subject: ", subject);
             setErrors({
                 ...errors,
                 subject: null
@@ -27,12 +28,9 @@ const Contact = () => {
                 subject: "عنوان باید بیشتر از ۸ کاراکتر باشد"
             })
         }
-        setSubject(event.target.value);
     };
     
-    const handelEmail = (event) => {
-        console.log("subject: ", subject);
-        console.log("message: ", message);
+    const handelEmail = (event) => {                
         if (validator.isEmail(event.target.value)){
             setEmail(event.target.value);
             console.log("email", email);
@@ -50,6 +48,7 @@ const Contact = () => {
 
     const handleMessage = (event) => {
         setMessage(event.target.value);
+        console.log("message: ", message);
     };
     
     const handleCloseModal = () => {

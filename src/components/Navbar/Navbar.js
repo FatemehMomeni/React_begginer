@@ -30,6 +30,11 @@ const Navbar = () => (
                 <button>جست‌وجوی ایموجی</button>
             </Link>
         </li>
+        <li>
+            <Link to="/crypto">
+                <button>ارز دیجیتال</button>
+            </Link>
+        </li>
     </ul>
 )
 

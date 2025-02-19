@@ -18,6 +18,7 @@ const Header = () => {
     if (pathname === "/about") title = "درباره‌ی ما";
     if (pathname === "/emoji") title = "جست‌وجوی ایموجی";
     if (pathname.includes("course")) title = "دوره";
+    if (pathname === "/crypto") title = "ارز دیجیتال";
 
 
     return (

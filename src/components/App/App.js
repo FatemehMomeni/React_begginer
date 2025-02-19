@@ -13,9 +13,10 @@ import {
   BrowserRouter, Route, Routes,
 } from "react-router";
 import EmojiSearch from "../EmojiSearch/EmojiSearch";
+import Cryptoccurency from "../Cryptocurrency/Cryptocurrency";
 
 
-function App() {
+const App = () => {
   const [activeTheme, setActiveTheme] = useState('pink');
 
   return (
@@ -41,6 +42,9 @@ function App() {
               </Route>
 
               <Route path="/course/:id" element={ <SingleCourse />}>
+              </Route>
+
+              <Route path="/crypto" element={ <Cryptoccurency />}>
               </Route>
 
             </Routes>
